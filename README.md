@@ -2,6 +2,7 @@
 Pyhton ile Hesap Makinesi
 
 from tkinter import *
+
 def yaz(x):
     global yazi
     yazi = yazi + x
@@ -105,3 +106,4 @@ Button(cerceve2, text="C", fg="yellow", bg="Green", font=("Arial", 10, "bold"), 
     row=3, column=5)
 
 ftastemur.mainloop()
+
